@@ -1,0 +1,37 @@
+# Первое
+
+ # num = [5, 4, True, "Fenix", 8, [5, True, "Alimaticum"]]
+ # num.append(180)
+ # num.insert(1,True)
+ # num.extend([5, 3, 2])
+ #
+ # num.pop(0)
+ # num.remove(True)
+ #
+ # print(num)
+
+# Второе
+
+ # nums = [5, 4, True, "Pop"]
+ #
+ # for el in nums:
+ #     print(el)
+
+# Третье
+
+n = int(input("Enter lenght: "))
+
+user_list = []
+
+i = 0
+while i < n:
+    string = "Enter element #" + str(i + 1) + ": "
+    user_list.append(input(string))
+    i += 1
+
+print(user_list)
+
+
+"""
+    Не забудьте раскомментировать нужные абзацы
+"""
